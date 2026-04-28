@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "260216317ea1890e",
+    "type": "split",
+    "children": [
+      {
+        "id": "58c38007fa87fe64",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca71273bafeb1f9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "asp-net-web-dev-knowledge-base/01-入门篇/01-环境搭建/02-安装.NET-SDK.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02-安装.NET-SDK"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c475d9499675807a",
+    "type": "split",
+    "children": [
+      {
+        "id": "15d1698baa02c349",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58209c2fee3194f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6d8971977373e736",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6d97e52835fd087d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9cff08589985ede7",
+    "type": "split",
+    "children": [
+      {
+        "id": "45606249f99de776",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fadc5e4af584f2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "6dca4ca6e44b3a79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "eb0262f2df2c1b3a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "15474ee2546f9837",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "768b68e930017785",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "ca71273bafeb1f9c",
+  "lastOpenFiles": [
+    "asp-net-web-dev-knowledge-base/01-入门篇/01-环境搭建/01-Windows环境准备.md",
+    "asp-net-web-dev-knowledge-base/00-导航中心/学习路线图.md",
+    "fix-placeholder.ps1",
+    "asp-net-web-dev-knowledge-base/00-导航中心/HOME.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/07-性能问题排查.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/06-前端集成问题.md",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/aspnetcore-8-badge.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/azure-az204-badge.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/github/stats-card.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/dotnet-badge.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/docker-card-badge.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/csharp-badge.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/csharp-8-badge.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/azure-badge.svg",
+    "asp-net-web-dev-knowledge-base/01-入门篇/01-环境搭建/02-安装.NET-SDK.md",
+    "asp-net-web-dev-knowledge-base/01-入门篇/03-第一个应用/创建项目.md",
+    "asp-net-web-dev-knowledge-base/00-导航中心/快速索引.md",
+    "未命名.md",
+    "asp-net-web-dev-knowledge-base/03-进阶篇/01-RESTful-API/01-REST原则与最佳实践.md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/Unit of Work(工作单元).md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/Strategy Pattern(策略模式).md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/Repository Pattern(仓储模式).md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/MediatR库实践.md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/Factory Pattern(工厂模式).md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/CQRS模式简介.md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/Adapter Pattern(适配器模式).md",
+    "asp-net-web-dev-knowledge-base/04-高手篇/01-设计模式/依赖注入进阶.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/11-设计与架构问题.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/12-学习路线答疑.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/10-测试相关问题.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/09-Docker与容器问题.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/08-安全相关问题.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/05-部署相关问题.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题/04-数据库相关问题.md",
+    "asp-net-web-dev-knowledge-base/08-常见问题",
+    "asp-net-web-dev-knowledge-base/assets/images/badges/docker-badge.svg",
+    "asp-net-web-dev-knowledge-base/assets/images/github",
+    "asp-net-web-dev-knowledge-base/assets/images/badges",
+    "asp-net-web-dev-knowledge-base/assets/images",
+    "asp-net-web-dev-knowledge-base/assets",
+    "asp-net-web-dev-knowledge-base/07-代码示例/ecommerce-mall",
+    "asp-net-web-dev-knowledge-base/07-代码示例/blog-system",
+    "asp-net-web-dev-knowledge-base/07-代码示例/todo-app",
+    "asp-net-web-dev-knowledge-base/07-代码示例/hello-world"
+  ]
+}

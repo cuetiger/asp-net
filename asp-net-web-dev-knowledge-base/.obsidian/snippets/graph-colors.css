@@ -1,0 +1,128 @@
+/* ============================================
+   ASP.NET 知识库 - 关系图谱颜色配置
+   基于文件夹路径为节点着色（学习阶段递进色谱）
+   使用方式: 放入 .obsidian/snippets/ 目录后,
+   在 Obsidian → 设置 → 外观 → CSS代码片段 中启用
+   ============================================ */
+
+/* --- 🟢 入门篇 (01-入门篇) - 绿色系 #4CAF50 --- */
+.graph-view-container [data-path*="01-入门篇"] .graph-view-color-circle {
+  background-color: #4CAF50 !important;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5) !important;
+}
+.graph-view-container [data-path*="01-入门篇"] .graph-view-vertex-label {
+  color: #4CAF50 !important;
+}
+
+/* --- 🔵 基础篇 (02-基础篇) - 蓝色系 #2196F3 --- */
+.graph-view-container [data-path*="02-基础篇"] .graph-view-color-circle {
+  background-color: #2196F3 !important;
+  box-shadow: 0 0 8px rgba(33, 150, 243, 0.5) !important;
+}
+.graph-view-container [data-path*="02-基础篇"] .graph-view-vertex-label {
+  color: #2196F3 !important;
+}
+
+/* --- 🟠 进阶篇 (03-进阶篇) - 橙色系 #FF9800 --- */
+.graph-view-container [data-path*="03-进阶篇"] .graph-view-color-circle {
+  background-color: #FF9800 !important;
+  box-shadow: 0 0 8px rgba(255, 152, 0, 0.5) !important;
+}
+.graph-view-container [data-path*="03-进阶篇"] .graph-view-vertex-label {
+  color: #FF9800 !important;
+}
+
+/* --- 🔴 高手篇 (04-高手篇) - 红色系 #E91E63 --- */
+.graph-view-container [data-path*="04-高手篇"] .graph-view-color-circle {
+  background-color: #E91E63 !important;
+  box-shadow: 0 0 8px rgba(233, 30, 99, 0.5) !important;
+}
+.graph-view-container [data-path*="04-高手篇"] .graph-view-vertex-label {
+  color: #E91E63 !important;
+}
+
+/* --- 🟣 工具与资源 (05-工具与资源) - 紫色系 #9C27B0 --- */
+.graph-view-container [data-path*="05-工具与资源"] .graph-view-color-circle {
+  background-color: #9C27B0 !important;
+  box-shadow: 0 0 8px rgba(156, 39, 176, 0.5) !important;
+}
+.graph-view-container [data-path*="05-工具与资源"] .graph-view-vertex-label {
+  color: #9C27B0 !important;
+}
+
+/* --- ⚡ 导航中心 (00-导航中心) - 金色 #FFD700 --- */
+.graph-view-container [data-path*="00-导航中心"] .graph-view-color-circle {
+  background-color: #FFD700 !important;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.6) !important;
+  transform: scale(1.15);
+}
+.graph-view-container [data-path*="00-导航中心"] .graph-view-vertex-label {
+  color: #B8860B !important;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* HOME.md 特别放大 - 全局核心枢纽 */
+.graph-view-container [data-path*="/HOME"] .graph-view-color-circle {
+  background-color: #FFD700 !important;
+  box-shadow: 0 0 14px rgba(255, 215, 0, 0.7) !important;
+  r: 12 !important;
+}
+.graph-view-container [data-path*="/HOME"] .graph-view-vertex-label {
+  font-size: 14px !important;
+  font-weight: bold;
+  color: #B8860B !important;
+}
+
+/* --- ⚪ 辅助内容 - 灰色系 #78909C --- */
+/* 术语表 */
+.graph-view-container [data-path*="06-术语表"] .graph-view-color-circle {
+  background-color: #78909C !important;
+  opacity: 0.85;
+}
+.graph-view-container [data-path*="06-术语表"] .graph-view-vertex-label {
+  color: #78909C !important;
+  font-size: 11px;
+}
+/* 代码示例 */
+.graph-view-container [data-path*="07-代码示例"] .graph-view-color-circle {
+  background-color: #607D8B !important;
+  opacity: 0.85;
+}
+.graph-view-container [data-path*="07-代码示例"] .graph-view-vertex-label {
+  color: #607D8B !important;
+  font-size: 11px;
+}
+/* FAQ常见问题 */
+.graph-view-container [data-path*="08-常见问题"] .graph-view-color-circle {
+  background-color: #90A4AE !important;
+  opacity: 0.85;
+}
+.graph-view-container [data-path*="08-常见问题"] .graph-view-vertex-label {
+  color: #90A4AE !important;
+  font-size: 11px;
+}
+/* 模板 */
+.graph-view-container [data-path*="templates"] .graph-view-color-circle {
+  background-color: #B0BEC5 !important;
+  opacity: 0.8;
+}
+.graph-view-container [data-path*="templates"] .graph-view-vertex-label {
+  color: #B0BEC5 !important;
+  font-size: 10px;
+}
+
+/* --- 连线颜色增强 --- */
+.graph-view-container .graph-view-edge {
+  stroke: rgba(144, 164, 174, 0.35) !important;
+}
+.graph-view-container .graph-view-edge:hover {
+  stroke: #FF7043 !important;
+  stroke-width: 3px !important;
+}
+
+/* --- README.md 各阶段入口 - 稍大一点 --- */
+.graph-view-container [data-path*="/README"] .graph-view-color-circle {
+  r: 9 !important;
+  filter: brightness(1.1);
+}

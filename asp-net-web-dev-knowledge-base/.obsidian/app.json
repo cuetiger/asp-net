@@ -1,0 +1,12 @@
+{
+  "defaultNotePath": "/",
+  "enablePlugins": true,
+  "enableFrontmatter": true,
+  "fileExtension": "md",
+  "newFileLocation": "current",
+  "newLinkBehavior": "selection",
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true
+}
